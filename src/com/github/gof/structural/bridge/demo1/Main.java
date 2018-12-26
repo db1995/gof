@@ -1,5 +1,11 @@
 package com.github.gof.structural.bridge.demo1;
 
+/**
+ * 桥接模式
+ * 将抽象部分与实现部分分离开来，使它们都可以独立变化
+ *
+ * @author db1995
+ */
 public class Main {
     public static void main(String[] args) {
         //创建不同的编程语言对象
