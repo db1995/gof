@@ -2,18 +2,19 @@ package com.github.gof.structural.bridge.demo1;
 
 /**
  * 学习者
+ *
  * @author db1995
  */
-public abstract class Learner {
+abstract class Learner {
     private Language language;
 
-    public Learner(Language language) {
+    Learner(Language language) {
         this.language = language;
     }
 
-    public abstract void learn();
+    abstract void learn();
 
-    public Language getLanguage() {
+    Language getLanguage() {
         return language;
     }
 }

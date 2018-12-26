@@ -8,16 +8,16 @@ public class Main {
 
         //让一个聪明人学习Java
         Learner smart1 = new SmartLearner(java);
-        smart1.learn();
+        smart1.learn(); //SmartLearner：I'm learning Java.
         //让另一个聪明人学习Python
         Learner smart2 = new SmartLearner(python);
-        smart2.learn();
+        smart2.learn(); //SmartLearner：I'm learning Python.
 
         //让一个普通人学习Java
         Learner ordinary1 = new OrdinaryLearner(java);
-        ordinary1.learn();
+        ordinary1.learn();  //OrdinaryLearner：I'm learning Java.
         //让另一个普通人学习Python
         Learner ordinary2 = new OrdinaryLearner(python);
-        ordinary2.learn();
+        ordinary2.learn();  //OrdinaryLearner：I'm learning Python.
     }
 }
