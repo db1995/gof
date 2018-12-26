@@ -8,8 +8,8 @@ package com.github.gof.creational.factorymethod;
  */
 public class Main {
     public static void main(String[] args) {
-        new AudiFactory().createCar().run();
-        new BenzFactory().createCar().run();
+        new AudiFactory().createCar().run();    //Audi run...
+        new BenzFactory().createCar().run();    //Benz run...
         //需要造新车时只需新建对应工厂，并使之实现CarFactory
     }
 }
