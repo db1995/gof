@@ -1,6 +1,8 @@
 package com.github.gof.behavioral.iterator.demo2;
 
 /**
+ * 迭代器模式
+ * 本例书架采用的是集合，长度可扩展
  * 将书放置到书架中，并将书的名字按顺序显示出来
  *
  * @author db1995
@@ -20,5 +22,6 @@ public class Main {
             Book book = (Book) iterator.next();
             System.out.println(book.getName());
         }
+        //E F G H I J K
     }
 }
