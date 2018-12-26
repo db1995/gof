@@ -1,4 +1,4 @@
-package com.github.gof.creational.factorymethod;
+package com.github.gof.creational.factorymethod.demo1;
 
 /**
  * 汽车
