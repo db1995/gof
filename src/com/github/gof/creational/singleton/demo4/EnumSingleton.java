@@ -6,6 +6,6 @@ package com.github.gof.creational.singleton.demo4;
  *
  * @author db1995
  */
-public enum SingletonDemo {
+public enum EnumSingleton {
     INSTANCE;
 }

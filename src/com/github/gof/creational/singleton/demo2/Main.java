@@ -6,6 +6,6 @@ package com.github.gof.creational.singleton.demo2;
 public class Main {
     public static void main(String[] args) {
         //true
-        System.out.println(SingletonDemo.getInstance() == SingletonDemo.getInstance());
+        System.out.println(LazySingleton.getInstance() == LazySingleton.getInstance());
     }
 }
